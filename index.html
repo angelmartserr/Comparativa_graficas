@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa gráficas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icono_tacometro.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Camparativa de tarjetas gráficas</h1>
+    </div>
+    <div class="content">
+        <div class="content_gcard">
+            <h2>RTX 3060 ti</h2>
+            <a href="https://www.amazon.es/REV2-0-ventiladores-WINDFORCE-GV-N306TGAMING-OC-8GD/dp/B09BKBJ14W/ref=sr_1_18?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3KJPUAHSMIYJU&keywords=geforce+rtx+3060+ti&qid=1645644351&sprefix=geforce+rtx+3060+ti%2Caps%2C80&sr=8-18" target="_blank">
+                <img src="img/3060.jpg" alt="3060ti">
+            </a>
+        </div>
+        <div class="content_gcard">
+            <h2>RTX 2080 ti</h2>
+            <a href="https://www.amazon.es/ASUS-ROG-Strix-GeForce-2080/dp/B07HNMT91C/ref=sr_1_5?keywords=geforce+rtx+2080+ti&qid=1645644270&sr=8-5" target="_blank">
+                <img src="img/2080.jpg" alt="2080ti">
+            </a>
+        </div>
+        <div class="buttons">
+            <button id="desplegar" onclick="Desplegar()">Desplegar tabla</button>
+            <button id="contraer" onclick="Contraer()">Contraer tabla</button>
+        </div>
+        <div id="table">
+            <table>
+                <tr>
+                    <td style="border: 0px;"></td>
+                    <td>RTX 3060 ti</td>
+                    <td>RTX 2080 ti</td>
+                </tr>
+                <tr>
+                    <td>Velocidad</td>
+                    <td>1,66GHZ</td>
+                    <td>1,55GHZ</td>
+                </tr>
+                <tr>
+                    <td>Tipo de memoria</td>
+                    <td>GDDR6 (8GB)</td>
+                    <td>GDDR6 (11GB)</td>
+                </tr>
+                <tr>
+                    <td>Interfaz de memoria</td>
+                    <td>256 bits</td>
+                    <td>352 bits</td>
+                </tr>
+                <tr>
+                    <td>Ancho de banda</td>
+                    <td>448GB/s</td>
+                    <td>616GB/s</td>
+                </tr>
+                <tr>
+                    <td>Slot</td>
+                    <td>PCIe 4.0 x16</td>
+                    <td>PCIe 3.0 x16</td>
+                </tr>
+                <tr>
+                    <td>Interfaces</td>
+                    <td>1x HDMI, 3x DisplayPort</td>
+                    <td>1x HDMI, 3x DisplayPort, 1x USB Type-C</td>
+                </tr>
+                <tr>
+                    <td>Version de DirectX</td>
+                    <td>12 Ultimate</td>
+                    <td>12 Ultimate</td>
+                </tr>
+                <tr>
+                    <td>Version de OpenGL</td>
+                    <td>4.6</td>
+                    <td>4.6</td>
+                </tr>
+                <tr>
+                    <td>Precio</td>
+                    <td>995€</td>
+                    <td>1200€</td>
+                </tr>
+                <tr>
+                    <td>Requisitos de potencia</td>
+                    <td>200W</td>
+                    <td>250W</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
